@@ -40,6 +40,7 @@ class TechList extends Component {
               onDelete={() => this.handleDelete(tech)}
             />
           )) }
+          <TechItem onDelete={() => this.handleDelete(tech)}/>
         </ul>
         <h1>{ this.state.newTech }</h1>
         <input 
